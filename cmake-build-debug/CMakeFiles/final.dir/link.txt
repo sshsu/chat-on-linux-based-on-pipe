@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/final.dir/src/client.cpp.o CMakeFiles/final.dir/src/test.cpp.o  -o final -lm 

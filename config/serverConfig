@@ -1,0 +1,5 @@
+{
+"SERVER_REG":"/tmp/server_reg",
+"SERVER_LOG":"/tmp/server_log",
+"SERVER_CHAT":"/tmp/server_chat"
+}

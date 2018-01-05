@@ -1,19 +1,19 @@
 ## 文件说明
 ```
 ├── bin
-│   ├── wangyishen_client 		客户端
-│   └── wangyishen_server　		服务端
+│   ├── wangyishen_client 	客户端
+│   └── wangyishen_server　	服务端
 ├── cmake-build-debug
 ├── CMakeLists.txt
-├── config 		配置文件
+├── config 				配置文件
 │   └── serverConfig
-├── include 		头文件
+├── include 			头文件
 │   ├── infoOper.h 		读或写信息包
 │   ├── jsonOpera.h 		boost的json读取方法的包装
 │   └── myStruct.h 		一些结构
 ├── makescripts
 ├── README				
-└── src 		cpp文件
+└── src 				cpp文件
     ├── client.cpp 		客户端源文件
     ├── infoOper.cpp
     ├── jsonOpera.cpp

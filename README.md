@@ -1,5 +1,5 @@
 ##文件说明
-
+```
 ├── bin
 │   ├── wangyishen_client 客户端
 │   └── wangyishen_server　服务端
@@ -18,7 +18,7 @@
     ├── infoOper.cpp
     ├── jsonOpera.cpp
     └── server.cpp
-
+```
 项目结构如上图所述，其中bin下的两个文件分别为客户端和服务端,config中存放这服务器的配置文件serverConfig，include存放着头文件,src中存放代码文件,makescripts存放这编译文件
 
 
@@ -55,29 +55,29 @@ MAX_CONNECT_NUM　代表的是服务器的最大连接数量，想要扩大或�
 
 ##客户端有哪些功能
 
-###注册功能
+	1###注册功能
 
 ```
 reg username passwd
 ```
 
-###登录功能
+	1###登录功能
 
 ```
 login username passwd
 ```
 
-###登出功能
+	1###登出功能
 ```
 logout
 ```
 
-###聊天功能
+	1###聊天功能
 ```
 @user:words
 ```
 
-###查询所有用户状态功能
+	1###查询所有用户状态功能
 
 ```
 @

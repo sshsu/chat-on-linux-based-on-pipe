@@ -86,10 +86,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/woder/project/sysprogram/final/include/infoOper.h">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="/home/woder/project/sysprogram/final/include/jsonOpera.h">
+			<Option target="final"/>
+		</Unit>
 		<Unit filename="/home/woder/project/sysprogram/final/include/myStruct.h">
 			<Option target="final"/>
 		</Unit>
 		<Unit filename="/home/woder/project/sysprogram/final/src/client.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="/home/woder/project/sysprogram/final/src/infoOper.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="/home/woder/project/sysprogram/final/src/jsonOpera.cpp">
+			<Option target="final"/>
+		</Unit>
+		<Unit filename="/home/woder/project/sysprogram/final/src/server.cpp">
 			<Option target="final"/>
 		</Unit>
 		<Unit filename="/home/woder/project/sysprogram/final/src/test.cpp">

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+g++ -l pthread -I include src/infoOper.cpp src/jsonOpera.cpp src/client.cpp -o bin/client -w
+
+g++ -l pthread -I include src/infoOper.cpp src/jsonOpera.cpp src/server.cpp  -o bin/server -w
+

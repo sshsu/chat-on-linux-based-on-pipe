@@ -81,9 +81,81 @@ CMakeFiles/final.dir/src/client.cpp.o.provides: CMakeFiles/final.dir/src/client.
 CMakeFiles/final.dir/src/client.cpp.o.provides.build: CMakeFiles/final.dir/src/client.cpp.o
 
 
+CMakeFiles/final.dir/src/infoOper.cpp.o: CMakeFiles/final.dir/flags.make
+CMakeFiles/final.dir/src/infoOper.cpp.o: ../src/infoOper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/final.dir/src/infoOper.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/final.dir/src/infoOper.cpp.o -c /home/woder/project/sysprogram/final/src/infoOper.cpp
+
+CMakeFiles/final.dir/src/infoOper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/final.dir/src/infoOper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/woder/project/sysprogram/final/src/infoOper.cpp > CMakeFiles/final.dir/src/infoOper.cpp.i
+
+CMakeFiles/final.dir/src/infoOper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/final.dir/src/infoOper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/woder/project/sysprogram/final/src/infoOper.cpp -o CMakeFiles/final.dir/src/infoOper.cpp.s
+
+CMakeFiles/final.dir/src/infoOper.cpp.o.requires:
+
+.PHONY : CMakeFiles/final.dir/src/infoOper.cpp.o.requires
+
+CMakeFiles/final.dir/src/infoOper.cpp.o.provides: CMakeFiles/final.dir/src/infoOper.cpp.o.requires
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/infoOper.cpp.o.provides.build
+.PHONY : CMakeFiles/final.dir/src/infoOper.cpp.o.provides
+
+CMakeFiles/final.dir/src/infoOper.cpp.o.provides.build: CMakeFiles/final.dir/src/infoOper.cpp.o
+
+
+CMakeFiles/final.dir/src/jsonOpera.cpp.o: CMakeFiles/final.dir/flags.make
+CMakeFiles/final.dir/src/jsonOpera.cpp.o: ../src/jsonOpera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/final.dir/src/jsonOpera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/final.dir/src/jsonOpera.cpp.o -c /home/woder/project/sysprogram/final/src/jsonOpera.cpp
+
+CMakeFiles/final.dir/src/jsonOpera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/final.dir/src/jsonOpera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/woder/project/sysprogram/final/src/jsonOpera.cpp > CMakeFiles/final.dir/src/jsonOpera.cpp.i
+
+CMakeFiles/final.dir/src/jsonOpera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/final.dir/src/jsonOpera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/woder/project/sysprogram/final/src/jsonOpera.cpp -o CMakeFiles/final.dir/src/jsonOpera.cpp.s
+
+CMakeFiles/final.dir/src/jsonOpera.cpp.o.requires:
+
+.PHONY : CMakeFiles/final.dir/src/jsonOpera.cpp.o.requires
+
+CMakeFiles/final.dir/src/jsonOpera.cpp.o.provides: CMakeFiles/final.dir/src/jsonOpera.cpp.o.requires
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/jsonOpera.cpp.o.provides.build
+.PHONY : CMakeFiles/final.dir/src/jsonOpera.cpp.o.provides
+
+CMakeFiles/final.dir/src/jsonOpera.cpp.o.provides.build: CMakeFiles/final.dir/src/jsonOpera.cpp.o
+
+
+CMakeFiles/final.dir/src/server.cpp.o: CMakeFiles/final.dir/flags.make
+CMakeFiles/final.dir/src/server.cpp.o: ../src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/final.dir/src/server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/final.dir/src/server.cpp.o -c /home/woder/project/sysprogram/final/src/server.cpp
+
+CMakeFiles/final.dir/src/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/final.dir/src/server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/woder/project/sysprogram/final/src/server.cpp > CMakeFiles/final.dir/src/server.cpp.i
+
+CMakeFiles/final.dir/src/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/final.dir/src/server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/woder/project/sysprogram/final/src/server.cpp -o CMakeFiles/final.dir/src/server.cpp.s
+
+CMakeFiles/final.dir/src/server.cpp.o.requires:
+
+.PHONY : CMakeFiles/final.dir/src/server.cpp.o.requires
+
+CMakeFiles/final.dir/src/server.cpp.o.provides: CMakeFiles/final.dir/src/server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/server.cpp.o.provides.build
+.PHONY : CMakeFiles/final.dir/src/server.cpp.o.provides
+
+CMakeFiles/final.dir/src/server.cpp.o.provides.build: CMakeFiles/final.dir/src/server.cpp.o
+
+
 CMakeFiles/final.dir/src/test.cpp.o: CMakeFiles/final.dir/flags.make
 CMakeFiles/final.dir/src/test.cpp.o: ../src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/final.dir/src/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/final.dir/src/test.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/final.dir/src/test.cpp.o -c /home/woder/project/sysprogram/final/src/test.cpp
 
 CMakeFiles/final.dir/src/test.cpp.i: cmake_force
@@ -108,16 +180,22 @@ CMakeFiles/final.dir/src/test.cpp.o.provides.build: CMakeFiles/final.dir/src/tes
 # Object files for target final
 final_OBJECTS = \
 "CMakeFiles/final.dir/src/client.cpp.o" \
+"CMakeFiles/final.dir/src/infoOper.cpp.o" \
+"CMakeFiles/final.dir/src/jsonOpera.cpp.o" \
+"CMakeFiles/final.dir/src/server.cpp.o" \
 "CMakeFiles/final.dir/src/test.cpp.o"
 
 # External object files for target final
 final_EXTERNAL_OBJECTS =
 
 final: CMakeFiles/final.dir/src/client.cpp.o
+final: CMakeFiles/final.dir/src/infoOper.cpp.o
+final: CMakeFiles/final.dir/src/jsonOpera.cpp.o
+final: CMakeFiles/final.dir/src/server.cpp.o
 final: CMakeFiles/final.dir/src/test.cpp.o
 final: CMakeFiles/final.dir/build.make
 final: CMakeFiles/final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/woder/project/sysprogram/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable final"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/final.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +204,9 @@ CMakeFiles/final.dir/build: final
 .PHONY : CMakeFiles/final.dir/build
 
 CMakeFiles/final.dir/requires: CMakeFiles/final.dir/src/client.cpp.o.requires
+CMakeFiles/final.dir/requires: CMakeFiles/final.dir/src/infoOper.cpp.o.requires
+CMakeFiles/final.dir/requires: CMakeFiles/final.dir/src/jsonOpera.cpp.o.requires
+CMakeFiles/final.dir/requires: CMakeFiles/final.dir/src/server.cpp.o.requires
 CMakeFiles/final.dir/requires: CMakeFiles/final.dir/src/test.cpp.o.requires
 
 .PHONY : CMakeFiles/final.dir/requires

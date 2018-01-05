@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/final.dir/src/client.cpp.o CMakeFiles/final.dir/src/test.cpp.o  -o final -lm 
+/usr/bin/c++  -g   CMakeFiles/final.dir/src/client.cpp.o CMakeFiles/final.dir/src/infoOper.cpp.o CMakeFiles/final.dir/src/jsonOpera.cpp.o CMakeFiles/final.dir/src/server.cpp.o CMakeFiles/final.dir/src/test.cpp.o  -o final -lm 

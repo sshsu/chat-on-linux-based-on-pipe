@@ -150,6 +150,87 @@ src/client.cpp.s:
 	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/client.cpp.s
 .PHONY : src/client.cpp.s
 
+src/infoOper.o: src/infoOper.cpp.o
+
+.PHONY : src/infoOper.o
+
+# target to build an object file
+src/infoOper.cpp.o:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/infoOper.cpp.o
+.PHONY : src/infoOper.cpp.o
+
+src/infoOper.i: src/infoOper.cpp.i
+
+.PHONY : src/infoOper.i
+
+# target to preprocess a source file
+src/infoOper.cpp.i:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/infoOper.cpp.i
+.PHONY : src/infoOper.cpp.i
+
+src/infoOper.s: src/infoOper.cpp.s
+
+.PHONY : src/infoOper.s
+
+# target to generate assembly for a file
+src/infoOper.cpp.s:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/infoOper.cpp.s
+.PHONY : src/infoOper.cpp.s
+
+src/jsonOpera.o: src/jsonOpera.cpp.o
+
+.PHONY : src/jsonOpera.o
+
+# target to build an object file
+src/jsonOpera.cpp.o:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/jsonOpera.cpp.o
+.PHONY : src/jsonOpera.cpp.o
+
+src/jsonOpera.i: src/jsonOpera.cpp.i
+
+.PHONY : src/jsonOpera.i
+
+# target to preprocess a source file
+src/jsonOpera.cpp.i:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/jsonOpera.cpp.i
+.PHONY : src/jsonOpera.cpp.i
+
+src/jsonOpera.s: src/jsonOpera.cpp.s
+
+.PHONY : src/jsonOpera.s
+
+# target to generate assembly for a file
+src/jsonOpera.cpp.s:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/jsonOpera.cpp.s
+.PHONY : src/jsonOpera.cpp.s
+
+src/server.o: src/server.cpp.o
+
+.PHONY : src/server.o
+
+# target to build an object file
+src/server.cpp.o:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
+
+src/server.i: src/server.cpp.i
+
+.PHONY : src/server.i
+
+# target to preprocess a source file
+src/server.cpp.i:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
+
+src/server.s: src/server.cpp.s
+
+.PHONY : src/server.s
+
+# target to generate assembly for a file
+src/server.cpp.s:
+	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
+
 src/test.o: src/test.cpp.o
 
 .PHONY : src/test.o
@@ -189,6 +270,15 @@ help:
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"
+	@echo "... src/infoOper.o"
+	@echo "... src/infoOper.i"
+	@echo "... src/infoOper.s"
+	@echo "... src/jsonOpera.o"
+	@echo "... src/jsonOpera.i"
+	@echo "... src/jsonOpera.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

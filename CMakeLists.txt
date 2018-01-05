@@ -16,10 +16,10 @@ AUX_SOURCE_DIRECTORY(./src DIR_SRCS)
 #设置变异标准 c++11
 set(CMAKE_CXX_STANDARD 11)
 #将WEB_SERVER环境变量设置成${DIR_SRCS}
-set(final ${DIR_SRCS} src/client.cpp include/myStruct.h)
+set(final ${DIR_SRCS} src/client.cpp include/myStruct.h include/jsonOpera.h src/jsonOpera.cpp src/server.cpp src/infoOper.cpp include/infoOper.h)
 
 #将需要编译的所有可执行文件${WBB_SERVER}，编译成文件${PROJECT_NAME}
-ADD_EXECUTABLE(${PROJECT_NAME} ${final} )
+ADD_EXECUTABLE(${PROJECT_NAME} ${final} include/jsonOpera.h src/jsonOpera.cpp src/server.cpp src/infoOper.cpp include/infoOper.h)
 #ADD_EXECUTABLE(${PROJECT_NAME} src/main.cpp src/http_conn.cpp src/threadpool.cpp} )
 #添加可执行文件要用到的库
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} m)

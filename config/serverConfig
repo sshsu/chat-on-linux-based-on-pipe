@@ -1,5 +1,6 @@
 {
-"SERVER_REG":"/tmp/server_reg",
-"SERVER_LOG":"/tmp/server_log",
-"SERVER_CHAT":"/tmp/server_chat"
+"SERVER_REG":"/tmp/wangyishen_register",
+"SERVER_LOG":"/tmp/wangyishen_login",
+"SERVER_CHAT":"/tmp/wangyishen_sendmsg",
+"MAX_CONNECT_NUM":"2"
 }

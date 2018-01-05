@@ -5,7 +5,7 @@
 │   └── wangyishen_server　	服务端
 ├── cmake-build-debug
 ├── CMakeLists.txt
-├── config 				配置文件
+├── config 			配置文件
 │   └── serverConfig
 ├── include 			头文件
 │   ├── infoOper.h 		读或写信息包
@@ -13,7 +13,7 @@
 │   └── myStruct.h 		一些结构
 ├── makescripts
 ├── README				
-└── src 				cpp文件
+└── src 			cpp文件
     ├── client.cpp 		客户端源文件
     ├── infoOper.cpp
     ├── jsonOpera.cpp
